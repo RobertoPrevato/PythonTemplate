@@ -1,4 +1,6 @@
-# PythonTemplate
+![Build](https://github.com/RobertoPrevato/PythonTemplate/workflows/Build/badge.svg)
+
+# Python project template
 Python project template for generic libraries.
 
 * VS Code project code-workspace
@@ -7,6 +9,23 @@ Python project template for generic libraries.
 * mypy
 * GitHub build workflow
 * Makefile
+* setup.py starter file
+
+## Getting started
+
+```
+# create Python virtual environment
+python -m venv venv
+
+# activate environment (Linux):
+source venv/bin/activate
+
+# activate environment (Windows):
+venv\Scripts\activate
+
+# install dependencies
+pip install -r requirements.txt
+```
 
 ## Makefile
 
